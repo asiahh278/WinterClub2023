@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+/* ---------- navbar ---------- */
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #0156D4;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    text-align: right;
+    text-decoration:none;
+    justify-content: flex-end;
+    float: none;
+}
+
+.navbar ul{
+    font-style: bold;
+    font-family: 'Poppins';
+    color: white;
+    align-content: flex-start;
+    text-align: right;
+    font-size: 25px;
+    margin-right: 65%;
+    margin-left: 3%;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin: 0 1% 0 .5%;
+}
+
+/* ---------- home page ---------- */
+
+#desc{
+    height: 750px;
+}
+
+
+section .desc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div #photo{
+    border-radius: 100%;
+    float: left;
+    margin: 220px 100px 0px 250px;
+}
+
+
+#Greet{
+    font-size: 50px;
+    color: #0066FF;
+    padding-bottom: 30px;
+}
+
+.intro{
+    margin: 150px 50px 0px 30px;
+    color: #151415;
+}
+
+/* ---------- hobby page ---------- */
+
+#hobby{
+    height: 600px;
+    background-color: #E1EFFF;
+}
+section .hobby{
+    justify-content: center;
+    margin: 20px 250px 0px 250px;
+}
+
+span{
+    text-align: start;
+    color: #0066FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hobby h3{
+    color: #151415;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.myhobby img{  
+    margin: 60px 20px 0px 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#writing{
+    border-radius: 100px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+#reading{
+    border-radius: 20px 20px 20px 20px;
+}
+
+#explore{
+    border-radius: 20px 20px 100px 20px;
+}
+
+/* ---------- favorite page ---------- */
+
+#favorite{
+    height: 500px;
+}
+
+section .favorite{
+    justify-content: center;
+    margin: 20px 330px 0px 330px;
+    margin-top: 20px;
+}
+
+.favorite h3{
+    color: #151415;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.favorite-food img{  
+    margin: 60px 10px 0px 10px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+/* ---------- favorite page ---------- */
+
+#contact{
+    text-align: center;
+    height: 250px;
+    background-color: #E1EFFF;
+}
+
+footer .contact{
+    justify-content: center;
+    margin: 20px 500px 0px 500px;
+}
+
+.contact h3{
+    color: #151415;
+    padding-top: 70px;
+    margin-top: 30px;
+}
+
+.contact-me a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #0156D4;
+    padding: 30px;
+    margin: 100px 10px 0px 10px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.contact a img{  
+    margin: 30px -25px 0px -25px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30px;
+}

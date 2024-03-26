@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>fetch data json</title>
+</head>
+
+<body>
+    <button id="getList">Showing list data</button>
+
+    <p id="getList"></p>
+
+    <!-- <script>
+        document.getElementById('getList').addEventListener('click', getList);
+        function getList() {
+            fetch('course.json')
+            .then((response) => response.json())
+            .then((data) => {
+                let output = '<h2>List Course</h2>';
+                console.log(data);
+
+                data.forEach((course) => {
+                    output += `
+                    <ul>
+                        <li>${course.id}</li>
+                        <li>${course.name}</li>
+                        <li>${course.url}</li>
+                    </ul>
+                    `;
+                })
+                document.getElementById('output').innerHTML = output;
+            })
+            .catch((err) => console.log(err));
+        }
+    </script> -->
+
+    <script>
+        document.getElementById('getList').addEventListener('click', getList);
+        function getList() {
+        fetch('pokemon.json')
+        .then((response) => response.json())
+        .then((data) => {
+        let output = '<h2>Course List</h2>';
+        console.log(data);
+        
+        data.forEach((course) => {
+        output += `
+        <ul>
+        <li>${course.id}</li>
+        <li>${course.name}</li>
+        <li>${course.url}</li>
+        </ul>
+        `;
+        })
+        document.getElementById('output').innerHTML = output;
+        })
+        .catch((err) => console.log(err));
+        }
+    </script>
+</body>
+</html>

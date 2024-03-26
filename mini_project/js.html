@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>belajar js</title>
+    
+    </head>
+    <body>
+        <!-- <p id="demo">
+            js can change HTML content
+        </p>
+        <button type="button" onclick="document.getElementById('demo').innerHTML='hello js'">
+            click me!
+        </button> -->
+
+        <!-- <script type="text/javascript">
+            var x= prompt();
+            if (x < 20) {
+                console.log("angka lebih kecil dari 20")
+            } else {
+                console.log("angka lebih besar dari 20")
+            }
+        </script> -->
+
+        <!-- <script>
+            var jawab= "3";
+            var hadiah = "";
+
+            switch(jawab) {
+                case"1":
+                hadiah = "tisu";
+                break;
+                case"2":
+                hadiah = "kopi";
+                break;
+                case"3":
+                hadiah = "kamu gak dapet";
+                break;
+                default:
+                    document.write("opss, kamu gak dapet"a);
+            } document.write("<p>kamu dapat" + hadiah + "</h2>")
+        </script> -->
+
+        <script>
+            // looping - use while
+            let angka = 1;
+            while(angka < 10){
+                console.log("ini kalimat ke-", angka);
+                angka++;
+            }
+
+            // looping - use do while
+            let hari = 1;
+            do{
+                document.write("aku udah ikut kewlas front end, hari ke-", hari, "<br>");
+                hari++;
+            }while(hari <3);
+
+            document.write("and now day 3");
+
+            // looping - for
+            let teks = "Winter Club 2023 <br>";
+            for(let i = 0; i < 7; i++){
+                document.write("baris ke-", i, " --->", teks);
+            }
+
+            // array
+
+        const skincareProduct = ["facewash", "moisturizer", "sunscreen"]
+        let i;
+        let products = skincareProduct.length;
+
+        document.write("--------------------");
+        document.write("<br> Skincare List: <br>");
+        document.write("--------------------");
+        for(i = 0; i < products; i++){
+            document.write("product", i+1, ": ", skincareProduct[1], "<br>");
+        }
+
+        function penjumlahan(angka1, angka2){
+            return angka1 + angka2;
+        }
+
+        let hasilJumlah = penjumlahan(7,8);
+        document.write(hasilJumlah, "<br>");
+        </script>
+    </body>
+</html>

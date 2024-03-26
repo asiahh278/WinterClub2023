@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "dicoding",
+        "url": "https://www.dicoding.com/"
+    },
+    {
+        "id": 2,
+        "name": "udacoding",
+        "url": "https://www.dicoding.com/"
+    },
+    {
+        "id": 3,
+        "name": "skilvul",
+        "url": "https://www.dicoding.com/"
+    },
+    {
+        "id": 4,
+        "name": "myskill",
+        "url": "https://www.dicoding.com/"
+    },
+    {
+        "id": 5,
+        "name": "genG",
+        "url": "https://www.dicoding.com/"
+    }
+]

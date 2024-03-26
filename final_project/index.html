@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter Club 2023</title>
+
+    <link rel="stylesheet" href="assets/style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+
+        <nav class="navbar">
+
+            <ul>Nagi's Website</ul>
+
+            <a href="#desc">Home</a>
+            <a href="#hobby">Hobby</a>
+            <a href="#favorite">Favorite</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <section id="desc">
+
+            <div class="desc">
+
+                <img id="photo" src="assets/images/myphoto.png">
+                <p class="intro">
+                    <b><span id="Greet"></span></b><br>
+                    Let me introduce myself, my name is Asiah. <br>
+                    Usually people call me Asiah or Nagi. I'm <br>
+                    from Jakarta. Now, i'm 16 years old.
+                </p>
+
+            </div>
+
+        </section>
+        
+    </header>
+
+    <section id="hobby">
+
+        <div class="hobby">
+
+            <h3><span>My hobby </span>are writing, reading, and explore new things</h3>
+
+            <div class="myhobby">
+                <img id="writing" src="assets/images/writing.png">
+                <img id="reading" src="assets/images/reading.png">
+                <img id="explore" src="assets/images/explore.png">
+            </div>
+
+        </div>
+        
+
+    </section>
+
+    <section id="favorite">
+
+        <div class="favorite">
+            <h3><span>My favorite food </span>are meatball, fried chicken, spaghetti, and pizza</h3>
+
+            <div class="favorite-food">
+                <img id="meatball" src="assets/images/meatball.png">
+                <img id="fried-chicken" src="assets/images/fried-chicken.png">
+                <img id="spaghetti" src="assets/images/spaghetti.png">
+                <img id="pizza" src="assets/images/pizza.png">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    
+    <footer id="contact">
+
+        <div class="contact">
+
+            <h3>Let's connect to me</h3>
+
+            <div class="contact-me">
+                <a href="https://www.linkedin.com/in/asiah-endro-ab007928b/" target="_blank"><img src="assets/images/linkedin.png" alt=""></a>
+                <a href="https://github.com/asiahh278" target="_blank"><img src="assets/images/github.png" alt=""></a>
+                <a href="https://www.instagram.com/asiahendro_" target="_blank"><img src="assets/images/instagram.png" alt=""></a>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+<script>
+
+    let text = ["Hello!", "Halo!", "Hola!", "Hej!", "Bonjour!", "Ciao!", "Ahlan!"];
+    let counter = 0;
+    let element = document.getElementById("Greet");
+    let int = setInterval(change, 1000);
+
+    function change() {
+        element.innerHTML = text[counter];
+        counter++;
+        if (counter >= text.length) {
+            counter = 0;
+        }
+    }
+    
+</script>
+
+</html>
